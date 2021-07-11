@@ -8,30 +8,83 @@
 [![MIT License][license-shield]][license-url]
 
 
-<!-- PROJECT LOGO -->
-<br />
-<p align="center">
-  <a href="https://github.com/sleepred/Good-README-Template">
-    <img src="docs/images/logo.png" alt="Logo" width="80" height="80">
-  </a>
+<!-- ABOUT THE PROJECT -->
+# eGovFrame Runtime
 
-  <h3 align="center">eGovFrame Runtime</h3>
+Simple overview of use/purpose.
 
-  <p align="center">
-    Common modules necessary for the execution of business logic programs in eGovernment project. Application programming environment to facilitate the standardized development of screens, server programs and data
-  </p>
-</p>
+## Description
 
-# 표준프레임워크 실행환경 Release Notes
+Common modules necessary for the execution of business logic programs in eGovernment project. Application programming environment to facilitate the standardized development of screens, server programs and data.
 
-## 2020.12.05 실행환경 4.0.0 alpha
-* Spring Boot 2.2.* 지원
-* 실행환경 groupId 와 artifactId 변경 (egovframework.rte -> org.egovframe.rte)
-* 실행환경 오픈소스 버전 업그레이드 (Spring Framework 4.3.25 -> 5.2.5)
-* 실행환경 오픈소스 버전 업그레이드 (Spring Security 4.3.13 -> 5.2.3)
-* 실행환경 오픈소스 버전 업그레이드 (Spring Data JPA 1.11.23 -> 2.2.3)
-* 실행환경 오픈소스 버전 업그레이드 (Spring Batch 3.0.10 -> 4.2.2)
+<!-- GETTING STARTED -->
+## Getting Started
 
+
+### Prerequisites
+
+* Describe any prerequisites, libraries, OS version, etc., needed before installing program.
+* ex. Windows 10
+
+### Installation
+
+* How/where to download your program
+* Any modifications needed to be made to files/folders
+
+<!-- USAGE EXAMPLES -->
+### Usage
+
+* How to run the program
+* Step-by-step bullets
+```
+code blocks for commands
+```
+
+## Help
+
+Any advise for common problems or issues.
+```
+command to run if program contains helper info
+```
+
+## Version History
+
+* 0.2
+    * Various bug fixes and optimizations
+    * See [commit change]() or See [release history]()
+* 0.1
+    * Initial Release
+
+
+
+
+<!-- CONTRIBUTING -->
+## Contributing
+
+Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+
+
+<!-- LICENSE -->
+## License
+
+This project is licensed under the [NAME HERE] License - see the LICENSE.md file for details
+
+
+
+## Contact
+
+Contributors names and contact info
+
+ex. Your Name - [@your_twitter](https://twitter.com/your_username) - email@example.com
+
+ex. Project Link: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name)
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
