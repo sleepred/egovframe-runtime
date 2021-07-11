@@ -14,82 +14,62 @@
 
 
 <!-- ABOUT THE PROJECT -->
-# eGovFrame Runtime
+# 전자정부 표준프레임워크 실행환경
 
-Simple overview of use/purpose.
+프로젝트의 목적에 대한 간단한 개요
 
-## Description
+## 프로젝트 설명
 
-Common modules necessary for the execution of business logic programs in eGovernment project. Application programming environment to facilitate the standardized development of screens, server programs and data.
+프로젝트에 대한 상세한 설명
 
-<!-- GETTING STARTED -->
-## Getting Started
+## 시작하기
 
+### 의존성
 
-### Prerequisites
+* 프로그램을 설치하기 전에 필요한 사전 요구사항, 라이브러리, OS 버전 등에 대한 설명
+* 예: Windows 10
 
-* Describe any prerequisites, libraries, OS version, etc., needed before installing program.
-* ex. Windows 10
+### 설치
 
-### Installation
+* 프로그램을 다운로드하는 방법 및 경로
+* 파일이나 폴더 등을 수정해야 되는 경우에 대한 설명
 
-* How/where to download your program
-* Any modifications needed to be made to files/folders
+### 프로그램 실행
 
-<!-- USAGE EXAMPLES -->
-### Usage
-
-* How to run the program
-* Step-by-step bullets
+* 프로그램 실행 방법
+* 단계별 작업
 ```
-code blocks for commands
+실행하는 방법에 대한 커맨드라인 명령
 ```
 
-## Help
+## 도움말
 
-Any advise for common problems or issues.
+일반적인 문제나 이슈 대한 조언 설명
 ```
-command to run if program contains helper info
+프로그램 도움말 정보가 포함된 경우 실행하는 명령어
 ```
 
-## Version History
+## 저자
+
+컨트리뷰터 이름 및 연락처 정보
+
+예: Ray Lee   
+예: [@sleepred](https://twitter.com/sleepred)
+
+## 버전 이력
 
 * 0.2
-    * Various bug fixes and optimizations
-    * See [commit change]() or See [release history]()
+    * 다양한 버그 수정 및 최적화
+    * [commit change]() 또는 [release history]() 참조
 * 0.1
-    * Initial Release
+    * 초기 릴리스
 
+## 라이선스
 
+이 프로젝트는 [NAME HERE] 라이선스 프로젝트 입니다. - 자세한 내용은 LICENSE.md 파일을 참조하세요
 
+## 참고 문헌
 
-<!-- CONTRIBUTING -->
-## Contributing
-
-Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
-
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-
-
-<!-- LICENSE -->
-## License
-
-This project is licensed under the [NAME HERE] License - see the LICENSE.md file for details
-
-
-
-## Contact
-
-Contributors names and contact info
-
-ex. Your Name - [@your_twitter](https://twitter.com/your_username) - email@example.com
-
-ex. Project Link: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name)
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
