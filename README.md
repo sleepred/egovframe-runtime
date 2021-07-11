@@ -1,5 +1,5 @@
 [![Englsh][language-en-shield]](README.md) 
-[![Korean][language-kr-shield]](README_kr.md)
+[![Korean][language-kr-shield]](README.kr.md)
 
 
 ![image](https://user-images.githubusercontent.com/1613812/125195363-365a7d00-e290-11eb-92b5-6cfd5266962e.png)
