@@ -15,7 +15,7 @@
 <!-- ABOUT THE PROJECT -->
 # eGovFrame Runtime
 
-Simple overview of use/purpose.
+eGovernment Standard Framework - Runtime Environment
 
 ## Description
 
@@ -59,9 +59,6 @@ command to run if program contains helper info
 * 0.1
     * Initial Release
 
-
-
-
 <!-- CONTRIBUTING -->
 ## Contributing
 
@@ -73,21 +70,17 @@ Contributions are what make the open source community such an amazing place to b
 4. Push to the Branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
-
-
 <!-- LICENSE -->
 ## License
 
 This project is licensed under the [NAME HERE] License - see the LICENSE.md file for details
-
-
+The eGovFrame Framework is released under version 2.0 of the [Apache License](https://www.apache.org/licenses/LICENSE-2.0).
 
 ## Contact
 
 Contributors names and contact info
 
 ex. Your Name - [@your_twitter](https://twitter.com/your_username) - email@example.com
-
 ex. Project Link: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name)
 
 <!-- MARKDOWN LINKS & IMAGES -->
