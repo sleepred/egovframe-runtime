@@ -24,39 +24,117 @@ Common modules necessary for the execution of business logic programs in eGovern
 <!-- GETTING STARTED -->
 ## Getting Started
 
+eGovFrame Runtime uses the Maven framework. 
 
 ### Prerequisites
 
-* Describe any prerequisites, libraries, OS version, etc., needed before installing program.
-* ex. Windows 10
+* Maven, version 3+
+* Java JDK 1.7+
 
-### Installation
+### How to build
 
-* How/where to download your program
-* Any modifications needed to be made to files/folders
+#### Building it
+
+This is a Maven project, and to build it use the following command:
+
+```
+$ mvn clean install
+```
+Optionally you can specify -Drelease to trigger obfuscation and/or uglification (as needed)
+
+Optionally you can specify -Dmaven.test.skip=true to skip the tests (even though
+you shouldn't as you know)
+
+The build result will be a eGovFrame Runtime package located in ```target```.
+
+#### Packaging / Distributing it
+
+Packages can be built by using the following command:
+```
+$ mvn clean package
+```
+
+The packaged results will be in the `target/` sub-folders of `assemblies/*`.
+
+#### Running the tests
+
+__Unit tests__
+
+This will run all unit tests in the project (and sub-modules). To run integration tests as well, see Integration Tests below.
+
+```
+$ mvn test
+```
 
 <!-- USAGE EXAMPLES -->
 ### Usage
 
-* How to run the program
-* Step-by-step bullets
-```
-code blocks for commands
-```
+eGovFrame Runtime can be downloaded using maven through the following settings in pom.xml file.
 
-## Help
+#### Using dependency definitions. 
 
-Any advise for common problems or issues.
-```
-command to run if program contains helper info
+Define parent project in pom file
+
+After adding above, add the following dependency definitions. 
+(Only the required ones.)
+
+``` xml
+
+<properties>
+    <spring.maven.artifact.version>5.2.5.RELEASE</spring.maven.artifact.version>
+    <org.egovframe.rte.version>4.0.0</org.egovframe.rte.version>
+</properties>
+
+...
+
+<dependency>
+    <groupId>egovframework.rte</groupId>
+    <artifactId>egovframework.rte.fdl.cmmn</artifactId>
+    <version>${egovframework.rte.version}</version>
+</dependency>
+
+<dependency>
+    <groupId>egovframework.rte</groupId>
+    <artifactId>egovframework.rte.ptl.mvc</artifactId>
+    <version>${egovframework.rte.version}</version>
+</dependency>
+
+<dependency>
+    <groupId>egovframework.rte</groupId>
+    <artifactId>egovframework.rte.psl.dataaccess</artifactId>
+    <version>${egovframework.rte.version}</version>
+</dependency>
+
+<dependency>
+    <groupId>egovframework.rte</groupId>
+    <artifactId>egovframework.rte.fdl.logging</artifactId>
+    <version>${egovframework.rte.version}</version>
+</dependency>
+
+<!-- OPTIONAL -->
+<dependency>
+    <groupId>egovframework.rte</groupId>
+    <artifactId>egovframework.rte.fdl.idgnr</artifactId>
+    <version>${egovframework.rte.version}</version>
+</dependency>
+
+<!-- OPTIONAL -->
+<dependency>
+    <groupId>egovframework.rte</groupId>
+    <artifactId>egovframework.rte.fdl.property</artifactId>
+    <version>${egovframework.rte.version}</version>
+</dependency>
+
+...
+
 ```
 
 ## Version History
 
-* 0.2
+* 4.0.0 beta
     * Various bug fixes and optimizations
     * See [commit change]() or See [release history]()
-* 0.1
+* 4.0.0 alpha
     * Initial Release
 
 <!-- CONTRIBUTING -->
@@ -65,10 +143,18 @@ command to run if program contains helper info
 Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
 1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
+2. Create your Feature Branch (`git checkout -b eGovFramework/egovframe-runtime`)
+3. Commit your Changes (`git commit -m 'Add some egovframe-runtime'`)
+4. Push to the Branch (`git push origin eGovFramework/egovframe-runtime`)
 5. Open a Pull Request
+
+## Asking for help
+
+Please go to https://www.egovframe.go.kr/home/sub.do?menuNo=69 to ask questions and get help.
+
+```
+command to run if program contains helper info
+```
 
 <!-- LICENSE -->
 ## License
@@ -82,6 +168,8 @@ Contributors names and contact info
 
 ex. Your Name - [@your_twitter](https://twitter.com/your_username) - email@example.com
 ex. Project Link: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name)
+
+
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
